@@ -17,14 +17,14 @@ The dataset includes:
 ## Evaluation Criteria
 The performance of the predictive model is evaluated using the **Mean Absolute Error (MAE)** formula:
 
-\[
-MAE = \frac{1}{n} \sum_{i=1}^n \lvert y_i - \hat{y}_i \rvert
-\]
+$$
+MAE = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|
+$$
 
 Where:
-- \( n \): Number of data points.
-- \( y_i \): Actual observed value.
-- \( \hat{y}_i \): Predicted value.
+- $n$: Number of data points.
+- $y_i$: Actual observed value.
+- $\hat{y}_i$: Predicted value.
 
 Lower MAE values indicate better model performance.
 
